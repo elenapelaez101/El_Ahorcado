@@ -1,1 +1,1 @@
-# Ahorcado_Incial
+# Ahorcado_Incial sin separar clases del fichero juego
