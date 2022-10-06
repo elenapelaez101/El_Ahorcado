@@ -4,11 +4,11 @@ que permiten solicitar introducir un dato numérico
 """
 
 
-import sys "estamos llamando al sistema para interactuar con nuestro sistema. es para captura, corrección y optimizacion de errores"
+import sys #estamos llamando al sistema para interactuar con nuestro sistema. es para captura, corrección y optimizacion de errores
 #XD ponlo cd vayas a interactuar muchas veces con la consola
 
 MIN=0
-MAX=100 "Esto hay que cambiarlo cuando te pide otro rango de numeros. este es un numero muy pequeño"
+MAX=100 #Esto hay que cambiarlo cuando te pide otro rango de numeros. este es un numero muy pequeño
 
 
 def solicitar_introducir_numero(invite):
