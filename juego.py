@@ -11,11 +11,14 @@ from introducir import (
 def elegir_numero_jugadores():
     return solicitar_introducir_numero_extremo(
         "Número de jugadores ", 1, 2)
+        #lo del numero de jugadores seria el invite
 
 
 def elegir_palabra():
     with open("data/test.txt") as f:
+        #esto es la basede la poo, la linea te esta preguntando que le abras un fichero, aunque si esta dentro de una carpeta hay que enrutar
         datas = f.readlines()
+        #te va a leer las lineas de f
     return choice(datas)[:-1]
 
 
